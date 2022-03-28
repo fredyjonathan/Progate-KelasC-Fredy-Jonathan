@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+}
+
+.output h1{
+    font-weight: normal;
+    color: 300px;
+    line-height: 50px;
+    text-align: right;
+    background-color: royalblue;
+    padding: 50px;
+}
+
+.buttonCalc{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 20px;
+    background-color: rgb(23, 69, 209);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    user-select: none;
+}
+
+.buttonCalc input{
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+.buttonCalc input:hover{
+    background-color: rgb(145, 183, 253);
+}

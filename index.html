@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body onload="startValue()">
+    <header>
+        <!-- No Header -->
+    </header>
+
+    <main>
+        <div class="output">
+            <h1 type = "text" id="outputDisplay"></h1>
+        </div>
+
+        <div class="buttonCalc">
+            <input type="button" class="button" class="span-two" value="Clear" onclick="clearOutput()">
+            <input type="button" class="button" value="Delete" onclick="deleteInput()">
+            <input type="button" class="button" value="%" onclick="percentage()">
+            <input type="button" class="button" value="/" onclick="getButton('/')">
+            <input type="button" class="button" value="7" onclick="getButton('7')">
+            <input type="button" class="button" value="8" onclick="getButton('8')">
+            <input type="button" class="button" value="9" onclick="getButton('9')">
+            <input type="button" class="button" value="X" onclick="getButton('*')">
+            <input type="button" class="button" value="4" onclick="getButton('4')">
+            <input type="button" class="button" value="5" onclick="getButton('5')">
+            <input type="button" class="button" value="6" onclick="getButton('6')">
+            <input type="button" class="button" value="-" onclick="getButton('-')">
+            <input type="button" class="button" value="1" onclick="getButton('1')">
+            <input type="button" class="button" value="2" onclick="getButton('2')">
+            <input type="button" class="button" value="3" onclick="getButton('3')">
+            <input type="button" class="button" value="+" onclick="getButton('+')">
+            <input type="button" class="button" value="+/-" onclick="plusminus()">
+            <input type="button" class="button" value="0" onclick="getButton('0')">
+            <input type="button" class="button" value="." onclick="getButton('.')">
+            <input type="button" class="button" value="=" onclick="calculate()">
+        </div>
+    </main>
+
+    <footer>
+        <!-- No Footer -->
+    </footer>
+</body>
+</html>
